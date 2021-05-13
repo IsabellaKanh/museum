@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/camr"
+        android:title="Camera" />
+
+    <item android:id="@+id/CallMe" android:title="Call"/>
+    <item android:id="@+id/SendEmail" android:title="Mail Us"/>
+</menu>

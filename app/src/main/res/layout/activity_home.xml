@@ -27,6 +27,7 @@
             android:layout_gravity="center"
             app:civ_border_width="2dp"
             app:civ_border_color="#FF000000"/>
+
         <TextView
             android:id="@+id/textView8"
             android:layout_width="391dp"
@@ -92,6 +93,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
+                android:onClick="gotomengo"
                 android:layout_marginLeft="35dp"
                 android:text="Mengo Museum of Religion"/>
         </LinearLayout>
@@ -123,6 +125,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:layout_marginLeft="35dp"
+                android:onClick="gotosocial"
                 android:text="Social Innovation Museum"/>
         </LinearLayout>
 
@@ -152,6 +155,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
+                android:onClick="gotogreatlakes"
                 android:layout_marginLeft="35dp"
                 android:text="Great Lakes Museum"/>
         </LinearLayout>
@@ -183,6 +187,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:layout_marginLeft="35dp"
+                android:onClick="gotomartyrs"
                 android:text="Church of Uganda Martyrs Museum"/>
         </LinearLayout>
         <View
@@ -193,6 +198,7 @@
 
 
         </LinearLayout>
+
 </ScrollView>
 
 </RelativeLayout>
