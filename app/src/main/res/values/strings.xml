@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MOBILE MUSEUM</string>
+    <string name="password">Password</string>
+    <string name="mobile_museum">MOBILE MUSEUM</string>
+    <string name="login">login</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="title_activity_maps_activitymus">Map</string>
+    <string name="title_activity_maps_activitymz">Map</string>
+</resources>
