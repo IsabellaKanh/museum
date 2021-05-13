@@ -15,7 +15,6 @@ public class Home extends AppCompatActivity {
     }
 
     public void gotougmuseum(View view) {
-        Intent intent = new Intent(getApplicationContext(),
-
+        Intent intent = new Intent(getApplicationContext(), UgMuseum.class);
     }
 }

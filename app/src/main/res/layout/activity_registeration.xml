@@ -51,7 +51,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editTextText"
+                    android:id="@+id/fulname"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -77,7 +77,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword"
+                    android:id="@+id/phon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -102,7 +102,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/uu"
+                    android:id="@+id/uemail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -127,7 +127,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/ud"
+                    android:id="@+id/uname"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -153,7 +153,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/juu"
+                    android:id="@+id/pwd"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -169,6 +169,7 @@
                 android:layout_height="wrap_content"
                 android:text="Register"
                 android:textAllCaps="false"
+                android:onClick="gotolog"
                 android:layout_marginTop="30dp"
                 android:layout_gravity="end"/>
             <TextView
